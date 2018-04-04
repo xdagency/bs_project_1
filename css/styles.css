@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/*
+    The Semicolons Fan Page - 1.0
+    This website was built with love.
+*/
+
+/*
+    Reset
+    Eric Meyer Version - v2.0
+*/
+
+
+/*
+    Globals
+*/
+
+body {
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    background: url('../images/bg-01.jpg') top center no-repeat;
+    background-size: cover;
+}
+
+
+/*
+    Typography
+*/
+
+h1 {
+    font: bold 48px/100% "Playfair Display", Georgia, serif;
+    padding: 0 0 16px;
+}
+
+h2 {
+    font: normal 28px/100% "Lato", sans-serif;
+    padding: 0 0 8px;
+}
+
+h3 {
+    font: bold 28px/100% "Playfair Display", Georgia, serif;
+    padding: 0 0 4px;
+}
+
+p {
+    font: normal 16px/144% "Lato", sans-serif;
+}
+
+header.main h1, header.main h2 {
+    text-align: right;
+    margin: 0;
+    color: white;
+}
+
+header.main h3, header.main p {
+    text-align: left;
+    color: white;
+}
+
+
+
+/*
+    Layout
+*/
+
+.wrapper {
+    position: relative;
+    width: 90%;
+    margin: 0 0 0 auto;
+}
+
+header.main {
+    background: url('../images/band-photo-b.jpg') top center no-repeat;
+    background-size: cover;
+    padding: 48px 48px 56px;
+}
+
+.navbar {
+    border-radius: 4px;
+    box-shadow: 0px 5px 24px -5px rgba(0,0,0,0.4);
+}
+
+header.main hgroup {
+    padding: 32px 0;
+}
+
+header.main section.button-group {
+    text-align: right;
+    padding: 0 0 16px;
+}
+
+
+
+/*
+    Trumps
+*/
+
+
+
+/*
+    Media Queries
+*/
+
+/* Medium */
+@media screen and (min-width: 720px) {
+
+    h1 {
+        font-size: 64px;
+        padding-top: 48px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    header.main {
+        padding: 56px 56px 80px;
+    }
+
+    header.main hgroup {
+        padding: 48px 0;
+    }
+
+    header.main section.button-group {
+        padding: 16px 0 48px;
+    }
+
+}
+
+/* Large */
+@media screen and (min-width: 1140px) {
+
+    .wrapper {
+        width: 85%;
+    }
+
+    h1 {
+        font-size: 88px;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+
+    header.main {
+        padding: 72px 88px 96px 72px;
+    }
+
+    header.main hgroup {
+        padding: 72px 0 56px;
+    }
+
+}
